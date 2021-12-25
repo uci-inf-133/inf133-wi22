@@ -1,0 +1,63 @@
+<h1>Calendar</h1>
+<p><strong>Note:</strong> all times are in Pacific Time Zone. In-class questions can be answered on the <a href="https://docs.google.com/forms/d/e/1FAIpQLScp3MLV1cV6DhxJoUBH803UEuBao4M6hx-YoW6nLalzVHrnxw/viewform" target="_blank">Questions</a> form. Note that you need to be signed in to your @uci.edu email address, which might require switching <a href="https://accounts.google.com/AccountChooser?continue=https://docs.google.com/forms/d/e/1FAIpQLScp3MLV1cV6DhxJoUBH803UEuBao4M6hx-YoW6nLalzVHrnxw/viewform&service=wise">Google Accounts</a>.</p>
+<div class="row table">
+	<div *ngFor="let day of calendar" class="day col-12" [ngClass]="day.weekend ? (day.today ? 'col-md-1 today' : 'col-md-1') : (day.today ? 'col-md-2 today' : 'col-md-2')">
+		<div class="d-none d-md-block">
+			{{day.dateStr}}
+		</div>
+		<div class="d-md-none">
+			{{day.dateStrFull}}
+		</div>
+		<div *ngFor="let event of day.events">
+			<div *ngIf="event.type == 'lecture' || event.type =='discussion'" class="event {{event.type}}">
+				<div class="title">
+					<a *ngIf="event.link" [href]="event.link" target="_blank">{{event.title}}</a>
+					<span *ngIf="!event.link">{{event.title}}</span>
+				</div>
+				<div *ngFor="let place of event.places">
+					<span>{{place.timeStr}} | </span>
+					<span *ngIf="place.link"><a [href]="place.link">{{place.location}}</a></span>
+					<span *ngIf="!place.link">{{place.location}}</span>
+				</div>
+				<div *ngIf="event.demo"><a [href]="event.demo">Demo Code</a></div>
+				<div *ngIf="event.recording"><a [href]="event.recording" target="_blank">Recording</a></div>
+			</div>
+			<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_ta'" class="event {{event.type}}">
+				<div class="title" *ngIf="event.title">
+					{{event.title}}
+				</div>
+				<div class="title" *ngIf="!event.title">
+					{{event.label}}
+				</div>
+				<div *ngFor="let place of event.places">
+					<span>{{place.timeStr}} | </span>
+					<span *ngIf="place.link"><a [href]="place.link">{{place.location}}</a></span>
+					<span *ngIf="!place.link">{{place.location}}</span>
+				</div>
+			</div>
+			<div *ngIf="event.type == 'holiday' || event.type == 'absence'" class="event {{event.type}}">
+				<div class="title">
+					{{event.title}}
+				</div>
+			</div>
+			<div *ngIf="event.type == 'assignment'" class="event {{event.type}}">
+				<div class="title">
+					<a *ngIf="event.link" [href]="event.link">{{event.title}} Due</a>
+					<span *ngIf="!event.link">{{event.title}} Due</span>
+				</div>
+				<div>
+					{{event.name}}
+				</div>
+			</div>
+			<div *ngIf="event.type == 'quiz'" class="event {{event.type}}">
+				<div class="title">
+					{{event.title}}
+					<div>
+						{{event.name}}
+					</div>
+				</div>
+				<div *ngFor="let place of event.places">{{place.timeStr}} | {{place.location}}</div>
+			</div>
+		</div>
+	</div>
+</div>

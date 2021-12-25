@@ -1,0 +1,49 @@
+<div class="row">
+	<aside class="col-md-3 col-12">
+		<h2>Basic Information</h2>
+		<p>Lecture: TuTh 2:00pm-3:20pm</p>
+		<p>Discussion: Mo 2:00-2:50pm<br>Mo 3:00-3:50pm<br>Mo 4:00-4:50pm</p>
+		<p>Office Hours: TBD (Epstein)<br>TBD (Addanki/Lee)</p>
+		<p>Slack: <a href="https://uci-inf-133-wi22.slack.com">https://uci-inf-133-wi22.slack.com</a></p>
+		<p>Email: <a href="mailto:informatics-133-staff@uci.edu">informatics-133-staff@uci.edu</a></p>
+		<h2>Upcoming Due Dates</h2>
+		<p *ngFor='let event of assignments_and_quizzes'>
+			<a *ngIf="event.link" [href]="event.link">{{event.dateStr}}: {{event.title}}</a>
+			<span *ngIf="!event.link">{{event.dateStr}}: {{event.title}}</span>
+		</p>
+		<p *ngIf="assignments_and_quizzes.length == 0">
+			No more!
+		</p>
+		<h2>Recent Lectures & Discussions</h2>
+		<p *ngFor='let event of lectures'>
+			{{event.dateStr}}: {{event.title}}
+			<a [href]="event.link" *ngIf="event.link"> (slides)</a>
+			<a [href]="event.recording" *ngIf="event.recording"> (recording)</a>
+		</p>
+		<p *ngIf="lectures.length == 0">
+			None yet!
+		</p>
+	</aside>
+	<main class="col-md-9 col-sm-12">
+		<p>Welcome! This class focuses on the programming and development of user interfaces, with a specific focus on modern web and mobile technology. We'll cover HTML, CSS, JavaScript, TypeScript, Angular, and Ionic along the way, growing an understanding of what each of these technologies provides and affords. Coming out of this class, students should be able to weigh the strengths and weaknesses of different devices and development frameworks for a given task.</p>
+        <h2>Course Staff</h2>
+    	<div class="row">
+    		<div class="col-4">
+    			<p>Professor Daniel Epstein</p>
+    			<img class="d-none d-lg-block" src="assets/images/epstein.jpg" alt="picture of Professor Epstein" width="200px">
+    		</div>
+    		<div class="col-4">
+    			<p>TA Goda Addanki</p>
+    			<img class="d-none d-lg-block" src="assets/images/goda.jpg" alt="picture of Goda Addanki" width="200px">
+    		</div>
+    		<div class="col-4">
+    			<p>TA Seolha Lee</p>
+    			<img class="d-none d-lg-block" src="assets/images/seolha.jpg" alt="picture of Seolha Lee" width="200px">
+    		</div>
+    	</div>
+        <h2>Repository</h2>
+        <p>This website is live on GitHub: 
+            <a href="https://github.com/uci-inf-133/inf133-wi22" target="_blank">https://github.com/uci-inf-133/inf133-wi22</a>
+        <p>You can create issues if information is unclear, incorrect, or out-of-date. You can even submit a pull request to resolve them yourself!</p>
+	</main>
+</div>
