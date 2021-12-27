@@ -84,7 +84,8 @@
 			"date": "2022-01-07",
 			"type": "assignment",
 			"title": "A0",
-			"name": "Getting to Know You, Getting to Know Us"
+			"name": "Getting to Know You, Getting to Know Us",
+			"link": "assignments/a0"
 		},
 		{
 			"date": "2022-01-11",
@@ -120,7 +121,8 @@
 			"date": "2022-01-19",
 			"type": "assignment",
 			"title": "A1",
-			"name": "Responsive Portfolio in HTML and CSS"
+			"name": "Responsive Portfolio in HTML and CSS",
+			"link": "assignments/a1"
 		},
 		{
 			"date": "2022-01-24",
