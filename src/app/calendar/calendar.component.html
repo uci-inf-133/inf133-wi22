@@ -22,7 +22,7 @@
 				<div *ngIf="event.demo"><a [href]="event.demo">Demo Code</a></div>
 				<div *ngIf="event.recording"><a [href]="event.recording" target="_blank">Recording</a></div>
 			</div>
-			<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_ta'" class="event {{event.type}}">
+			<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_goda' || event.type == 'officehours_seolha'" class="event {{event.type}}">
 				<div class="title" *ngIf="event.title">
 					{{event.title}}
 				</div>

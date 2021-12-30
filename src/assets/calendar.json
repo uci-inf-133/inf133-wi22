@@ -36,17 +36,23 @@
 					"time": "15:45",
 					"duration": "75",
 					"label": "Professor Epstein Office Hours",
-					"location": "Zoom",
-					"link": "tbd"
+					"location": "Zoom"
 				}
 		},
-		"officehours_ta": {
+		"officehours_seolha": {
 			"place": {
 					"time": "11:00",
-					"duration": "120",
-					"label": "TA Office Hours",
-					"location": "Zoom",
-					"link": "tbd"
+					"duration": "60",
+					"label": "Seolha Office Hours",
+					"location": "Zoom"
+				}
+		},
+		"officehours_goda": {
+			"place": {
+					"time": "14:00",
+					"duration": "60",
+					"label": "Goda Office Hours",
+					"location": "Zoom"
 				}
 		},
 		"assignment" : {
@@ -66,13 +72,15 @@
 			"date": "2022-01-04",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "Introduction & History"
+			"title": "Introduction & History",
+			"link": "assets/lectures/01_04_22-introduction_history.pdf"
 		},
 		{
 			"date": "2022-01-06",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "HTML & Accessibility"
+			"title": "HTML & Accessibility",
+			"link": "assets/lectures/01_06_22-html_accessibility.pdf"
 		},
 		{
 			"date": "2022-01-10",
@@ -98,10 +106,18 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2022-01-12",
+			"type": "officehours_goda"
+		},
+		{
 			"date": "2022-01-13",
 			"type": "lecture",
 			"location": "Zoom",
 			"title": "Responsive Design & Javascript 1"
+		},
+		{
+			"date": "2022-01-14",
+			"type": "officehours_seolha"
 		},
 		{
 			"date": "2022-01-17",
@@ -125,9 +141,8 @@
 			"link": "assignments/a1"
 		},
 		{
-			"date": "2022-01-24",
-			"type": "discussion",
-			"title": "Javascript Demo (TBD)"
+			"date": "2022-01-19",
+			"type": "officehours_goda"
 		},
 		{
 			"date": "2022-01-20",
@@ -135,8 +150,13 @@
 			"title": "DOM Manipulation & Package Management"
 		},
 		{
-			"date": "2022-01-25",
-			"type": "officehours_daniel"
+			"date": "2022-01-21",
+			"type": "officehours_seolha"
+		},
+		{
+			"date": "2022-01-24",
+			"type": "discussion",
+			"title": "Javascript Demo (TBD)"
 		},
 		{
 			"date": "2022-01-25",
@@ -144,9 +164,12 @@
 			"title": "TypeScript & Data Visualization Tools"
 		},
 		{
-			"date": "2022-01-31",
-			"type": "discussion",
-			"title": "Vega-Lite Demo (TBD)"
+			"date": "2022-01-25",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2022-01-26",
+			"type": "officehours_goda"
 		},
 		{
 			"date": "2022-01-27",
@@ -154,13 +177,30 @@
 			"title": "AJAX, Fetch, & Promises"
 		},
 		{
-			"date": "2022-02-01",
-			"type": "officehours_daniel"
+			"date": "2022-01-28",
+			"type": "officehours_seolha"
+		},
+		{
+			"date": "2022-01-31",
+			"type": "discussion",
+			"title": "Vega-Lite Demo (TBD)"
 		},
 		{
 			"date": "2022-02-01",
 			"type": "lecture",
 			"title": "Server-Side Development, Authentication, and Authorization"
+		},
+		{
+			"date": "2022-02-01",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2022-02-02",
+			"type": "officehours_goda"
+		},
+		{
+			"date": "2022-02-04",
+			"type": "officehours_seolha"
 		},
 		{
 			"date": "2022-02-04",
@@ -180,17 +220,16 @@
 		},
 		{
 			"date": "2022-02-08",
-			"type": "officehours_daniel"
-		},
-		{
-			"date": "2022-02-08",
 			"type": "lecture",
 			"title": "Separation in Angular & Modeling Human Performance"
 		},
 		{
-			"date": "2022-02-14",
-			"type": "discussion",
-			"title": "TA Office Hours"
+			"date": "2022-02-08",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2022-02-09",
+			"type": "officehours_goda"
 		},
 		{
 			"date": "2022-02-10",
@@ -198,15 +237,13 @@
 			"title": "Hybrid & Native Architectures"
 		},
 		{
-			"date": "2022-02-18",
-			"type": "assignment",
-			"title": "A3",
-			"name": "Spotify Browser in Angular"
+			"date": "2022-02-11",
+			"type": "officehours_seolha"
 		},
 		{
-			"date": "2022-02-21",
-			"type": "holiday",
-			"title": "President's Day"
+			"date": "2022-02-14",
+			"type": "discussion",
+			"title": "TA Office Hours"
 		},
 		{
 			"date": "2022-02-15",
@@ -218,9 +255,28 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2022-02-16",
+			"type": "officehours_goda"
+		},
+		{
 			"date": "2022-02-17",
 			"type": "lecture",
 			"title": "Mobile Design Principles & SASS"
+		},
+		{
+			"date": "2022-02-18",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Spotify Browser in Angular"
+		},
+		{
+			"date": "2022-02-18",
+			"type": "officehours_seolha"
+		},
+		{
+			"date": "2022-02-21",
+			"type": "holiday",
+			"title": "President's Day"
 		},
 		{
 			"date": "2022-02-22",
@@ -232,13 +288,8 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2022-02-28",
-			"type": "discussion",
-			"title": "Ionic Demo (TBD)"
-		},
-		{
-			"date": "2022-03-01",
-			"type": "officehours_daniel"
+			"date": "2022-02-23",
+			"type": "officehours_goda"
 		},
 		{
 			"date": "2022-02-24",
@@ -246,9 +297,27 @@
 			"title": "Databases and Local Storage"
 		},
 		{
-			"date": "2022-03-07",
+			"date": "2022-02-25",
+			"type": "officehours_seolha"
+		},
+		{
+			"date": "2022-02-28",
 			"type": "discussion",
-			"title": "TA Office Hours"
+			"title": "Ionic Demo (TBD)"
+		},
+		{
+			"date": "2022-03-01",
+			"type": "lecture",
+			"title": "Beyond Web & Mobile 1"
+		},
+		{
+			"date": "2022-03-01",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2022-03-03",
+			"type": "lecture",
+			"title": "Beyond Web & Mobile 2"
 		},
 		{
 			"date": "2022-03-04",
@@ -257,18 +326,13 @@
 			"name": "Sleep Tracker in Ionic"
 		},
 		{
-			"date": "2022-03-01",
-			"type": "lecture",
-			"title": "Beyond Web & Mobile 1"
+			"date": "2022-03-04",
+			"type": "officehours_seolha"
 		},
 		{
-			"date": "2022-03-03",
-			"type": "lecture",
-			"title": "Beyond Web & Mobile 2"
-		},
-		{
-			"date": "2022-03-08",
-			"type": "officehours_daniel"
+			"date": "2022-03-07",
+			"type": "discussion",
+			"title": "TA Office Hours"
 		},
 		{
 			"date": "2022-03-08",
@@ -276,13 +340,29 @@
 			"title": "TBD"
 		},
 		{
+			"date": "2022-03-08",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2022-03-09",
+			"type": "officehours_goda"
+		},
+		{
 			"date": "2022-03-10",
 			"type": "lecture",
 			"title": "Wrap-up"
 		},
 		{
+			"date": "2022-03-11",
+			"type": "officehours_seolha"
+		},
+		{
 			"date": "2022-03-15",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2022-03-16",
+			"type": "officehours_goda"
 		},
 		{
 			"date": "2022-03-16",
