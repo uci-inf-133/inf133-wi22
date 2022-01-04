@@ -73,7 +73,8 @@
 			"type": "lecture",
 			"location": "Zoom",
 			"title": "Introduction & History",
-			"link": "assets/lectures/01_04_22-introduction_history.pdf"
+			"link": "assets/lectures/01_04_22-introduction_history.pdf",
+			"recording": "https://uci.zoom.us/rec/share/ZVnQZStbNCI3xbKnCa1qeAj_eoKhoc9P8MnjmBPgl4N-CdhXsWBoCgphb6v1OUR5.RAJqZyOjAYDkqPEW?startTime=1641333089000"
 		},
 		{
 			"date": "2022-01-06",
