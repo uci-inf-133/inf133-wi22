@@ -81,7 +81,8 @@
 			"type": "lecture",
 			"location": "Zoom",
 			"title": "HTML & Accessibility",
-			"link": "assets/lectures/01_06_22-html_accessibility.pdf"
+			"link": "assets/lectures/01_06_22-html_accessibility.pdf",
+			"demo": "assets/demos/01_06_22-html_accessibility.zip"
 		},
 		{
 			"date": "2022-01-10",
@@ -100,7 +101,9 @@
 			"date": "2022-01-11",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "CSS"
+			"title": "CSS",
+			"link": "assets/lectures/01_11_22-css.pdf",
+			"demo": "assets/demos/01_11_22-css.zip"
 		},
 		{
 			"date": "2022-01-11",
@@ -114,7 +117,9 @@
 			"date": "2022-01-13",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "Responsive Design & Javascript 1"
+			"title": "Responsive Design & Javascript 1",
+			"link": "assets/lectures/01_13_22-responsive_javascript.pdf",
+			"demo": "assets/demos/01_13_22-responsive_javascript.zip"
 		},
 		{
 			"date": "2022-01-14",
