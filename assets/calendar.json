@@ -91,7 +91,9 @@
 			"date": "2022-01-10",
 			"type": "discussion",
 			"location": "Zoom",
-			"title": "Git and GitHub Tutorial (Seolha)"
+			"title": "Git and GitHub Tutorial (Seolha)",
+			"time": "15:00",
+			"duration": "170"
 		},
 		{
 			"date": "2022-01-07",
