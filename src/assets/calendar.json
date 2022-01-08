@@ -5,7 +5,7 @@
 					"time": "14:00",
 					"duration": "80",
 					"label": "Lecture",
-					"location": "SSL 270 & Zoom",
+					"location": "HH 178 & Zoom",
 					"link": "https://uci.zoom.us/j/99697056321?pwd=RzRpQk1PNzcxemVHZ2JkRVJkWXJpQT09"
 				}
 		},
@@ -36,7 +36,8 @@
 					"time": "15:45",
 					"duration": "75",
 					"label": "Professor Epstein Office Hours",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": " https://uci.zoom.us/j/95286345189"
 				}
 		},
 		"officehours_seolha": {
@@ -44,7 +45,8 @@
 					"time": "11:00",
 					"duration": "60",
 					"label": "Seolha Office Hours",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/91954168401"
 				}
 		},
 		"officehours_goda": {
@@ -82,13 +84,16 @@
 			"location": "Zoom",
 			"title": "HTML & Accessibility",
 			"link": "assets/lectures/01_06_22-html_accessibility.pdf",
-			"demo": "assets/demos/01_06_22-html_accessibility.zip"
+			"demo": "assets/demos/01_06_22-html_accessibility.zip",
+			"recording": "https://uci.zoom.us/rec/share/WPid5wfwupek2AfGMSbJLjB-2sfFTPfWZqU5BxYmm-rJYmzJyL2oye9gl7gUFpXY.kw81VwkTaocP1teA?startTime=1641505659000"
 		},
 		{
 			"date": "2022-01-10",
 			"type": "discussion",
 			"location": "Zoom",
-			"title": "Git and GitHub Tutorial (Seolha)"
+			"title": "Git and GitHub Tutorial (Seolha)",
+			"time": "15:00",
+			"duration": "170"
 		},
 		{
 			"date": "2022-01-07",
@@ -133,6 +138,7 @@
 		{
 			"date": "2022-01-18",
 			"type": "lecture",
+			"location": "Zoom",
 			"title": "JavaScript 2"
 		},
 		{
@@ -153,6 +159,7 @@
 		{
 			"date": "2022-01-20",
 			"type": "lecture",
+			"location": "Zoom",
 			"title": "DOM Manipulation & Package Management"
 		},
 		{
@@ -162,11 +169,13 @@
 		{
 			"date": "2022-01-24",
 			"type": "discussion",
+			"location": "Zoom",
 			"title": "Javascript Demo (Goda)"
 		},
 		{
 			"date": "2022-01-25",
 			"type": "lecture",
+			"location": "Zoom",
 			"title": "TypeScript & Data Visualization Tools"
 		},
 		{
@@ -180,6 +189,7 @@
 		{
 			"date": "2022-01-27",
 			"type": "lecture",
+			"location": "Zoom",
 			"title": "AJAX, Fetch, & Promises"
 		},
 		{

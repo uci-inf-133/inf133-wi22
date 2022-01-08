@@ -80,6 +80,9 @@ export class CalendarComponent implements OnInit {
 							"link": place.link ? place.link : null
 						};
 					});
+					if("time" in event && "duration" in event) {
+						ev.places = [ev.places[0]];
+					}
 				} else if(!calendar['defaults'][event.type]["place"]) {
 					var start_time = null
 					if("time" in event) {
