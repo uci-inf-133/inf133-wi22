@@ -93,7 +93,8 @@
 			"location": "Zoom",
 			"title": "Git and GitHub Tutorial (Seolha)",
 			"time": "15:00",
-			"duration": "170"
+			"duration": "170",
+			"link": "assets/discussions/01_10_22-github.pdf"
 		},
 		{
 			"date": "2022-01-07",
