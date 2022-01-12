@@ -37,7 +37,7 @@
 					"duration": "75",
 					"label": "Professor Epstein Office Hours",
 					"location": "Zoom",
-					"link": " https://uci.zoom.us/j/95286345189"
+					"link": "https://uci.zoom.us/j/95286345189"
 				}
 		},
 		"officehours_seolha": {
@@ -54,7 +54,8 @@
 					"time": "14:00",
 					"duration": "60",
 					"label": "Goda Office Hours",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/93655949196"
 				}
 		},
 		"assignment" : {
@@ -94,7 +95,8 @@
 			"title": "Git and GitHub Tutorial (Seolha)",
 			"time": "15:00",
 			"duration": "170",
-			"link": "assets/discussions/01_10_22-github.pdf"
+			"link": "assets/discussions/01_10_22-github.pdf",
+			"recording": "https://drive.google.com/file/d/18DznqypyFZ6LyiaMUx8mDYamoTfWVS1k/view"
 		},
 		{
 			"date": "2022-01-07",
@@ -109,7 +111,8 @@
 			"location": "Zoom",
 			"title": "CSS",
 			"link": "assets/lectures/01_11_22-css.pdf",
-			"demo": "assets/demos/01_11_22-css.zip"
+			"demo": "assets/demos/01_11_22-css.zip",
+			"recording": "https://uci.zoom.us/rec/share/6seBClg1WSF7BfHcCYOVDGKxIjF_J5DLgVjaAM478bfMsLziAksFaVAriWFxSqEj.AKqeTa0XLN5d_zbw?startTime=1641937798000"
 		},
 		{
 			"date": "2022-01-11",
@@ -140,7 +143,9 @@
 			"date": "2022-01-18",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "JavaScript 2"
+			"title": "JavaScript 2",
+			"link": "assets/lectures/01_18_22-javascript.pdf",
+			"demo": "assets/demos/01_18_22-javascript.zip"
 		},
 		{
 			"date": "2022-01-18",
@@ -161,7 +166,9 @@
 			"date": "2022-01-20",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "DOM Manipulation & Package Management"
+			"title": "DOM Manipulation & Package Management",
+			"link": "assets/lectures/01_20_22-dom_package.pdf",
+			"demo": "assets/demos/01_20_22-dom_package.zip"
 		},
 		{
 			"date": "2022-01-21",
@@ -177,7 +184,9 @@
 			"date": "2022-01-25",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "TypeScript & Data Visualization Tools"
+			"title": "TypeScript & Data Visualization Tools",
+			"link": "assets/lectures/01_25_22-typescript_visualization.pdf",
+			"demo": "assets/demos/01_25_22-typescript_visualization.zip"
 		},
 		{
 			"date": "2022-01-25",
