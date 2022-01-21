@@ -181,7 +181,8 @@
 			"date": "2022-01-24",
 			"type": "discussion",
 			"location": "Zoom",
-			"title": "Javascript Demo (Goda)"
+			"title": "Javascript Demo (Goda)",
+			"link": "assets/discussions/01_24_22-javascript.pdf"
 		},
 		{
 			"date": "2022-01-25",
@@ -212,7 +213,7 @@
 		{
 			"date": "2022-01-31",
 			"type": "discussion",
-			"title": "Vega-Lite Demo (TBD)"
+			"title": "Vega-Lite Demo (Seolha)"
 		},
 		{
 			"date": "2022-02-01",
