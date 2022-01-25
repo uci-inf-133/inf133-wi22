@@ -204,7 +204,9 @@
 			"date": "2022-01-27",
 			"type": "lecture",
 			"location": "Zoom",
-			"title": "AJAX, Fetch, & Promises"
+			"title": "AJAX, Fetch, & Promises",
+			"link": "assets/lectures/01_27_22-ajax_fetch_promises.pdf",
+			"demo": "assets/demos/01_27_22-ajax_fetch_promises.zip"
 		},
 		{
 			"date": "2022-01-28",
@@ -218,7 +220,9 @@
 		{
 			"date": "2022-02-01",
 			"type": "lecture",
-			"title": "Server-Side Development, Authentication, and Authorization"
+			"title": "Server-Side Development, Authentication, and Authorization",
+			"link": "assets/lectures/02_01_22-server_authentication.pdf",
+			"demo": "assets/demos/02_01_22-server_authentication.zip"
 		},
 		{
 			"date": "2022-02-01",
