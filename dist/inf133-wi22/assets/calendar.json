@@ -207,7 +207,8 @@
 			"location": "Zoom",
 			"title": "AJAX, Fetch, & Promises",
 			"link": "assets/lectures/01_27_22-ajax_fetch_promises.pdf",
-			"demo": "assets/demos/01_27_22-ajax_fetch_promises.zip"
+			"demo": "assets/demos/01_27_22-ajax_fetch_promises.zip",
+			"recording": "https://uci.zoom.us/rec/share/WmHXPWfAhm_hB7b1ZRWIeoITsLzLLV7hzQ3SAQu4P3PnUemGNx3nJRRxeutpPiQ9.qsDeCjxVhjfgPstZ?startTime=1643320067000"
 		},
 		{
 			"date": "2022-01-28",
@@ -303,7 +304,8 @@
 			"date": "2022-02-18",
 			"type": "assignment",
 			"title": "A3",
-			"name": "Spotify Browser in Angular"
+			"name": "Spotify Browser in Angular",
+			"link": "assignments/a3"
 		},
 		{
 			"date": "2022-02-18",
