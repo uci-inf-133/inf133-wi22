@@ -261,7 +261,9 @@
 		{
 			"date": "2022-02-08",
 			"type": "lecture",
-			"title": "Separation in Angular & Modeling Human Performance"
+			"title": "Separation in Angular & Modeling Human Performance",
+			"link": "assets/lectures/02_08_22-angular_separation_human_performance.pdf",
+			"demo": "assets/demos/02_08_22-angular_separation_human_performance.zip"
 		},
 		{
 			"date": "2022-02-08",
