@@ -225,7 +225,8 @@
 			"type": "lecture",
 			"title": "Server-Side Development, Authentication, and Authorization",
 			"link": "assets/lectures/02_01_22-server_authentication.pdf",
-			"demo": "assets/demos/02_01_22-server_authentication.zip"
+			"demo": "assets/demos/02_01_22-server_authentication.zip",
+			"recording": "https://uci.zoom.us/rec/share/dCaQ27AwdviOwkb9XtwKitTitG2MyU97gRJwhSBiaB1JKP8GnECZLbKRX1yYwb_B.BoIBGS8VqYUc7M7A?startTime=1643752125000"
 		},
 		{
 			"date": "2022-02-01",
