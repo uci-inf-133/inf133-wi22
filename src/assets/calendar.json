@@ -257,7 +257,9 @@
 		{
 			"date": "2022-02-07",
 			"type": "discussion",
-			"title": "Angular Demo (Goda)"
+			"location": "Zoom",
+			"title": "Angular Demo (Goda)",
+			"link": "assets/discussions/02_07_22-angular.pdf"
 		},
 		{
 			"date": "2022-02-08",
