@@ -252,7 +252,8 @@
 			"type": "lecture",
 			"title": "Components in Angular",
 			"link": "assets/lectures/02_03_22-angular_components.pdf",
-			"demo": "assets/demos/02_03_22-angular_components.zip"
+			"demo": "assets/demos/02_03_22-angular_components.zip",
+			"recording": "https://uci.zoom.us/rec/share/pWqc2QFem_Wsz66a69k8AL8PnpPI2pAqv5bh8LAuQQcvKA6sQUmIC5Ms4vjWuYhV.AUWR5mmqBEMmC_JR?startTime=1643924553000"
 		},
 		{
 			"date": "2022-02-07",
@@ -279,7 +280,8 @@
 		{
 			"date": "2022-02-10",
 			"type": "lecture",
-			"title": "Hybrid & Native Architectures"
+			"title": "Hybrid & Native Architectures",
+			"link": "assets/lectures/02_10_22-hybrid_native.pdf",
 		},
 		{
 			"date": "2022-02-11",
