@@ -290,12 +290,15 @@
 		{
 			"date": "2022-02-14",
 			"type": "discussion",
+			"location": "Zoom",
 			"title": "TA Office Hours"
 		},
 		{
 			"date": "2022-02-15",
 			"type": "lecture",
-			"title": "Ionic Components"
+			"title": "Ionic Components",
+			"link": "assets/lectures/02_15_22-ionic_components.pdf",
+			"demo": "assets/demos/02_15_22-ionic_components.zip"
 		},
 		{
 			"date": "2022-02-15",
@@ -308,7 +311,9 @@
 		{
 			"date": "2022-02-17",
 			"type": "lecture",
-			"title": "Mobile Design Principles & SASS"
+			"title": "Mobile Design Principles & SASS",
+			"link": "assets/lectures/02_17_22-mobile_sass.pdf",
+			"demo": "assets/demos/02_17_22-mobile_sass.zip"
 		},
 		{
 			"date": "2022-02-18",
@@ -380,6 +385,7 @@
 		{
 			"date": "2022-03-07",
 			"type": "discussion",
+			"location": "Zoom",
 			"title": "TA Office Hours"
 		},
 		{
