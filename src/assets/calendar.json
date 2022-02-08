@@ -260,7 +260,8 @@
 			"type": "discussion",
 			"location": "Zoom",
 			"title": "Angular Demo (Goda)",
-			"link": "assets/discussions/02_07_22-angular.pdf"
+			"link": "assets/discussions/02_07_22-angular.pdf",
+			"recording": "https://www.dropbox.com/s/miapkykemnqnpx3/02_07_22-angular.mp4?dl=0"
 		},
 		{
 			"date": "2022-02-08",
