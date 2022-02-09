@@ -268,7 +268,8 @@
 			"type": "lecture",
 			"title": "Separation in Angular & Modeling Human Performance",
 			"link": "assets/lectures/02_08_22-angular_separation_human_performance.pdf",
-			"demo": "assets/demos/02_08_22-angular_separation_human_performance.zip"
+			"demo": "assets/demos/02_08_22-angular_separation_human_performance.zip",
+			"recording": "https://uci.zoom.us/rec/share/GckD_z1YPCwMCCBvtUvUfb-KFQ7Nu-H8U9kxxS882F6b1jFrZZQMEBZGDxzqxMw6.e7XtmlzP6PR3xzl-?startTime=1644356461000"
 		},
 		{
 			"date": "2022-02-08",
