@@ -1,5 +1,5 @@
 <main class="container-fluid" *ngIf="assignment">
-   <p class="tbd">Not updated for 2022</p>
+   <p class="tbd">Recently updated for 2022, there may still be small corrections to make.</p>
    <h1>{{assignment.title}}: {{assignment.name}}</h1>
    <h3>Due {{assignment.due}} PST</h3>
    <p>In this assignment, you’ll demonstrate your ability to make a mobile app by developing a tool for tracking sleep and sleepiness in Ionic. There are <a href="https://thewirecutter.com/reviews/best-sleep-tracking-app/">many sleep tracking apps</a> in the Apple App and Google Play Stores. You will implement a few of the common features.</p>
@@ -15,12 +15,12 @@
       <li>One service in the <code>services</code> folder: <code>sleep.service</code>. This service provides static variables for storing the logged data and a method for loading default (fake) data.</li>
    </ul>
    <p>As with A3, you can ignore the <code>.spec.ts</code> files for the purposes of this class.</p>
-   <p>You will likely want to create additional components, pages, or services to build your app. Running <code>ionic generate [filename]</code> will generate skeleton code for these files <a href="https://ionicframework.com/docs/cli/generate/">(documentation here)</a>. The decision on how many pages, components, etc. to add and what they contain is up to you.</p>
+   <p>You will likely want to create additional components, pages, or services to build your app. Running <code>ionic generate [filename]</code> will generate skeleton code for these files <a href="https://ionicframework.com/docs/cli/commands/generate">(documentation here)</a>. The decision on how many pages, components, etc. to add and what they contain is up to you.</p>
    <p>There is also a <code>readme.txt</code> file in the root folder. <strong>The readme is more important to this assignment than to previous ones</strong>, as it is required to include justifications of your design choices. You will also need to create a screen or video recording of your app, <code>demo.mp4</code> (or some other reasonable file format such as <code>.mov</code> or <code>.avi</code>).
    <h3>Setting up your Workspace</h3>
    <p>Some of the packages/libraries depend on newer versions of Node JS.</p>
    <p>Check what version of Node JS you have installed with <code>node --version</code>. If you installed Node JS before this class, make sure you've updated to at least 10, such as with <a href="https://github.com/nvm-sh/nvm/blob/master/README.md">nvm</a> or downloading the latest version from the <a href="https://nodejs.org/en/">node website</a>. If your version of Node worked for A3, you should not need to update. But it's worth checking the version number if you're encountering issues.</p>
-   <p>To run the Ionic app, you will need to install Ionic through npm. To do this, you will install the Ionic <a href="https://ionicframework.com/docs/intro/installation/">Command Line Interface (CLI)</a> globally with <code>npm install -g @ionic/cli</code>. The Ionic project is already set up in the <code>sleeptracker</code> folder, but the CLI is necessary to run the project.</p>
+   <p>To run the Ionic app, you will need to install Ionic through npm. To do this, you will install the Ionic <a href="https://ionicframework.com/docs/intro/cli">Command Line Interface (CLI)</a> globally with <code>npm install -g @ionic/cli</code>. The Ionic project is already set up in the <code>sleeptracker</code> folder, but the CLI is necessary to run the project.</p>
    <p>You will also need to install the dependencies for the Ionic app. These dependencies are defined in each project's respective <code>package.json</code> files. <code>cd</code> into the sleeptracker folder and install the dependencies with <code>npm install</code>.</p>
    <p>When installing, if you run into issues which look like "permission denied, try changing <a href="https://github.com/angular/angular-cli/issues/6848#issuecomment-386120663">the permissions of the node_modules directory</a>. If you are still having trouble, ask on Slack or talk to the course staff. It's important to try to get the setup working sooner rather than later, even if you do not plan on working on the assignment until close to the deadline.</p>
    <h4>Running the App</h4>
@@ -45,7 +45,7 @@
          <li>Storing data locally or in a database.</li>
       </ul>
    </ul>
-   <p>It is up to you to decide exactly how your app implements these features. You will be evaluated on inclusion of these features as well as how well your app follows <a href="assets/lectures/02_24_21-mobile_sass.pdf">good principles of mobile design</a>.</p>
+   <p>It is up to you to decide exactly how your app implements these features. You will be evaluated on inclusion of these features as well as how well your app follows <a href="/assets/lectures/02_17_22-mobile_sass.pdf">good principles of mobile design</a>.</p>
    <h3>Log Overnight Sleep</h3>
    <p>Your app must allow someone to log the sleep they had overnight. At minimum, this means allowing a person to log what time they went to bed and when they woke up. It's up to you to decide how to support this logging, with the goal of aligning with good principles of mobile design. As you go about deciding how to support logging, think about how someone might use your app (feel free to identify a particular user or type of user, such as college students). Do they start the log when they go to sleep, or log their full night's sleep in the morning? Will a particular input field make logging easier? Are there other things a person might want to log about their sleep?</p>
    <p>The data file <code>overnight-sleep-data.ts</code> provides a starting point for logging this data. The fields can be changed, additional fields can be added, and helper methods can be added. So long as the questions of when someone went to bed and when they woke up can be logged and viewed in your app, you can change the fields however you wish. You can assume that a person logs overnight sleep only once per day.</p>
@@ -90,7 +90,7 @@
    <p>
       Make sure you are looking at the documentation for <strong>Angular</strong>, as the syntax differs slightly for React and other platforms.
    </p>
-   <p>We discussed four major principles of good mobile design in <a href="assets/lectures/02_24_21-mobile_sass.pdf">lecture</a>:</p>
+   <p>We discussed four major principles of good mobile design in <a href="assets/lectures/02_17_22-mobile_sass.pdf">lecture</a>:</p>
    <ul>
       <li>A useful initial view</li>
       <li>The "uh-oh" button</li>

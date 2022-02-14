@@ -337,7 +337,9 @@
 		{
 			"date": "2022-02-22",
 			"type": "lecture",
-			"title": "Device Resources & Sensors"
+			"title": "Device Resources & Sensors",
+			"link": "assets/lectures/02_22_22-device_resources.pdf",
+			"demo": "assets/demos/02_22_22-device_resources.zip"
 		},
 		{
 			"date": "2022-02-22",
@@ -379,7 +381,8 @@
 			"date": "2022-03-04",
 			"type": "assignment",
 			"title": "A4",
-			"name": "Sleep Tracker in Ionic"
+			"name": "Sleep Tracker in Ionic",
+			"link": "assignments/a4"
 		},
 		{
 			"date": "2022-03-04",
