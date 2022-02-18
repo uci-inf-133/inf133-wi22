@@ -377,6 +377,10 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2022-03-02",
+			"type": "officehours_goda"
+		},
+		{
 			"date": "2022-03-03",
 			"type": "lecture",
 			"title": "Beyond Web & Mobile 2"
@@ -421,12 +425,13 @@
 			"type": "officehours_seolha"
 		},
 		{
-			"date": "2022-03-15",
-			"type": "officehours_daniel"
+			"date": "2022-03-14",
+			"type": "officehours_seolha",
+			"time": "13:00"
 		},
 		{
-			"date": "2022-03-16",
-			"type": "officehours_goda"
+			"date": "2022-03-15",
+			"type": "officehours_daniel"
 		},
 		{
 			"date": "2022-03-16",
