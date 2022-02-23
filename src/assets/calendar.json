@@ -341,7 +341,8 @@
 			"type": "lecture",
 			"title": "Device Resources & Sensors",
 			"link": "assets/lectures/02_22_22-device_resources.pdf",
-			"demo": "assets/demos/02_22_22-device_resources.zip"
+			"demo": "assets/demos/02_22_22-device_resources.zip",
+			"recording": "https://uci.zoom.us/rec/share/op5zJZ255XdyYxiD_QsyprlgdLpvhKX035JwGpj2_1-j8B3PCJAinFAuvEjCIzk0.5tEDcx_aMLO7myl7?startTime=1645566405000"
 		},
 		{
 			"date": "2022-02-22",
