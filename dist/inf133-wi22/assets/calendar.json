@@ -371,7 +371,8 @@
 		{
 			"date": "2022-03-01",
 			"type": "lecture",
-			"title": "Beyond Web & Mobile 1"
+			"title": "Small & Large Displays",
+			"link": "assets/lectures/03_01_22-small_large.pdf"
 		},
 		{
 			"date": "2022-03-01",
@@ -384,7 +385,8 @@
 		{
 			"date": "2022-03-03",
 			"type": "lecture",
-			"title": "Beyond Web & Mobile 2"
+			"title": "Augmenting Reality & Conversation",
+			"link": "assets/lectures/03_03_22-ar_conversation.pdf"
 		},
 		{
 			"date": "2022-03-04",
@@ -406,7 +408,7 @@
 		{
 			"date": "2022-03-08",
 			"type": "lecture",
-			"title": "TBD"
+			"title": "Interaction and Society"
 		},
 		{
 			"date": "2022-03-08",
