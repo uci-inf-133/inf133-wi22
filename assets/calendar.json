@@ -357,7 +357,8 @@
 			"type": "lecture",
 			"title": "Databases and Local Storage",
 			"link": "assets/lectures/02_24_22-databases.pdf",
-			"demo": "assets/demos/02_24_22-databases.zip"
+			"demo": "assets/demos/02_24_22-databases.zip",
+			"recording": "https://uci.zoom.us/rec/share/MWaatenZlenNkeqM9NDwLN6HLxJLUVTWrM2ihZNGMpJH60GnpVNzAAe2zt7kRGh6.z3jq3DVrRVWC_ker?startTime=1645739280000"
 		},
 		{
 			"date": "2022-02-25",
@@ -440,7 +441,8 @@
 			"date": "2022-03-16",
 			"type": "assignment",
 			"title": "A5",
-			"name": "Beyond Web & Mobile"
+			"name": "Beyond Web & Mobile",
+			"link": "assignments/a5"
 		}
 	]
 }
