@@ -367,6 +367,7 @@
 		{
 			"date": "2022-02-28",
 			"type": "discussion",
+			"location": "Zoom",
 			"title": "Ionic Demo (Seolha)"
 		},
 		{
@@ -410,10 +411,6 @@
 			"date": "2022-03-08",
 			"type": "lecture",
 			"title": "Interaction and Society"
-		},
-		{
-			"date": "2022-03-08",
-			"type": "officehours_daniel"
 		},
 		{
 			"date": "2022-03-09",
