@@ -411,7 +411,8 @@
 		{
 			"date": "2022-03-08",
 			"type": "lecture",
-			"title": "Interaction and Society"
+			"title": "Interaction and Society",
+			"link": "assets/lectures/03_08_22-interaction_society.pdf"
 		},
 		{
 			"date": "2022-03-09",
@@ -420,7 +421,8 @@
 		{
 			"date": "2022-03-10",
 			"type": "lecture",
-			"title": "Wrap-up"
+			"title": "Wrap-up",
+			"link": "assets/lectures/03_10_22-wrap_up.pdf"
 		},
 		{
 			"date": "2022-03-11",
