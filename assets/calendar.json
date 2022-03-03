@@ -369,6 +369,7 @@
 			"type": "discussion",
 			"location": "Zoom",
 			"title": "Ionic Demo (Seolha)",
+			"link": "assets/discussions/02_28_22-ionic.pdf",
 			"recording": "https://uci.zoom.us/rec/share/qtpDkH5I2zcmEI20gHOe6u8SxlfmHX_fF1OoqmNeqCuZkTGby3ae5jD6sH54fMcX.uU5FKPv8QsIFuTnk?startTime=1646093382000"
 		},
 		{
@@ -394,20 +395,26 @@
 		},
 		{
 			"date": "2022-03-04",
+			"type": "officehours_seolha"
+		},
+		{
+			"date": "2022-03-06",
 			"type": "assignment",
 			"title": "A4",
 			"name": "Sleep Tracker in Ionic",
 			"link": "assignments/a4"
 		},
 		{
-			"date": "2022-03-04",
-			"type": "officehours_seolha"
+			"date": "2022-03-07",
+			"type": "officehours_daniel",
+			"time": "14:00",
+			"duration": "120"
 		},
 		{
-			"date": "2022-03-07",
-			"type": "discussion",
-			"location": "Zoom",
-			"title": "Goda Office Hours"
+			"date": "2022-03-08",
+			"type": "officehours_goda",
+			"time": "10:00",
+			"duration": "60"
 		},
 		{
 			"date": "2022-03-08",
